@@ -1,0 +1,33 @@
+@charset "UTF8";
+
+:root
+{--cor01:#736C6D;
+--cor02: #1D1340 ;
+--cor03: #1B1259;
+--cor04:#131026 ;
+--cor05:#212026;
+--cor06:#57429F;
+--cor07:#6C57F2;}
+
+*
+{margin: 0px;
+padding: 0px;}
+
+
+header
+{height: 100px;
+background-color:var(--cor06);}
+
+menu
+{background-color: var(--cor05);}
+
+menu > ul
+{list-style-type:none}
+
+menu > ul > li
+{display: inline-block;}
+
+menu > ul > li > a
+{color: white;
+font-weight: bold;
+text-decoration: none;}
