@@ -20,6 +20,10 @@ header
 {height: 100px;
 background-color:var(--cor06);}
 
+header > h1
+{padding: 25px;
+color: white;}
+
 menu
 {background-color: var(--cor05);}
 
@@ -59,7 +63,6 @@ main > section#trabalhos > div#d1,div#d2,div#d3
 {display:inline-block;
 height: 340px;
 width: 300px;
-background-color: var(--cor02);
 border: 2px solid white;
 margin: 10px;
 color: white;
@@ -81,13 +84,39 @@ main > section#trabalhos > div#d1:hover
 main > section#trabalhos > div:hover
 {background-color: var(--cor07);}
 
+
+
 main > section#contatos
-{height:400px;
-}
+{display: block;
+text-align: center;}
 
-main > section#contatos > h2
-{color: white;
+main > section#contatos div
+{margin: 30px;
+height: 200px;
+width: 200px;
+display: inline-block;}
+
+main > section#contatos h2
+{font-size: 2em;
+color: white;
+border-top: 3px solid white;
+border-bottom: 3px solid white;
 text-align: center;
-padding-top: 50px;}
+padding: 10px;}
 
+main > section#contatos img
+{height: 120px;
+width: 120px;}
 
+main > section#contatos a
+{text-decoration: none;
+font-size: 2.1em;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: white;}
+
+footer
+{height: 50px;
+color: white;
+background-color: var(--cor05);}
