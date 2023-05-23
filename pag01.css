@@ -64,9 +64,9 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 500px;}
 
-main > section#apr > img
+main > section#apr div#img
 {display: block;
-margin: auto;}
+text-align: center;}
 
 /* ---------------TRABALHOS-------------------*/
 
