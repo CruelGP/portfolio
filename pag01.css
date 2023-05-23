@@ -58,7 +58,7 @@ font-weight: bold;
 text-decoration: none;}
 /* ---------------APRESENTAÇÃO-------------------*/
 main > section#apr
-{background-image: url('imagem/fogo\ roxo01.jpg');
+{background-image: url('imagem/fogo-roxo01.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 height: 500px;}
