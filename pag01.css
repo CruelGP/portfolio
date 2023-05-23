@@ -64,6 +64,10 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 500px;}
 
+main > section#apr > img
+{display: block;
+margin: auto;}
+
 /* ---------------TRABALHOS-------------------*/
 
 main > section#trabalhos
