@@ -1,7 +1,7 @@
 @charset "UTF8";
 
 :root
-{--cor01:#736C6D;
+{--cor01:#4d4d4d;
 --cor02: #1D1340 ;
 --cor03: #1B1259;
 --cor04:#131026 ;
@@ -13,6 +13,8 @@
 {margin: 0px;
 padding: 0px;}
 
+body
+{background-image: linear-gradient(var(--cor05), var(--cor02), var(--cor05));}
 
 header
 {height: 100px;
@@ -35,4 +37,57 @@ font-weight: bold;
 text-decoration: none;}
 
 main > section#apr
-{background-image: url('imagem/fogo\ roxo01.jpg');}
+{background-image: url('imagem/fogo\ roxo01.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;}
+
+main > section#trabalhos > h1
+{color: white;}
+
+main > section#trabalhos
+{display: block;
+text-align: center;}
+
+main > section#trabalhos > h2
+{font-size: 2em;
+color: white;
+border-bottom: 3px solid white;
+padding: 10px;}
+
+main > section#trabalhos > div#d1,div#d2,div#d3
+{display:inline-block;
+height: 340px;
+width: 300px;
+background-color: var(--cor02);
+border: 2px solid white;
+margin: 10px;
+color: white;
+font-size: 1.4em;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;}
+
+main > section#trabalhos img
+{height: 300px;
+width: 300px;}
+
+main > section#trabalhos a
+{text-decoration: none;
+color: white;}
+
+main > section#trabalhos > div#d1:hover
+{background-color: var(--cor07);}
+
+main > section#trabalhos > div:hover
+{background-color: var(--cor07);}
+
+main > section#contatos
+{height:400px;
+}
+
+main > section#contatos > h2
+{color: white;
+text-align: center;
+padding-top: 50px;}
+
+
