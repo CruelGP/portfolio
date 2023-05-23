@@ -1,5 +1,10 @@
 @charset "UTF8";
 
+@font-face {
+    font-family:'on-fire' ;
+    src: url('fontes/On\ Fire\ Free\ Trial.ttf') format('truetype');
+}
+
 :root
 {--cor01:#4d4d4d;
 --cor02: #1D1340 ;
@@ -7,7 +12,9 @@
 --cor04:#131026 ;
 --cor05:#212026;
 --cor06:#57429F;
---cor07:#6C57F2;}
+--cor07:#6C57F2;
+
+--fonte01: }
 
 *
 {margin: 0px;
@@ -16,6 +23,8 @@ padding: 0px;}
 body
 {background-image: linear-gradient(var(--cor05), var(--cor02), var(--cor05));}
 
+/* ---------------CABEÇALHO-------------------*/
+
 header
 {height: 100px;
 background-color:var(--cor06);}
@@ -23,6 +32,8 @@ background-color:var(--cor06);}
 header > h1
 {padding: 25px;
 color: white;}
+
+/* ---------------MENU-------------------*/
 
 menu
 {background-color: var(--cor05);}
@@ -39,12 +50,14 @@ menu > ul > li > a
 {color: white;
 font-weight: bold;
 text-decoration: none;}
-
+/* ---------------APRESENTAÇÃO-------------------*/
 main > section#apr
 {background-image: url('imagem/fogo\ roxo01.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 height: 500px;}
+
+/* ---------------TRABALHOS-------------------*/
 
 main > section#trabalhos > h1
 {color: white;}
@@ -84,7 +97,7 @@ main > section#trabalhos > div#d1:hover
 main > section#trabalhos > div:hover
 {background-color: var(--cor07);}
 
-
+/* ---------------CONTATOS-------------------*/
 
 main > section#contatos
 {display: block;
@@ -115,6 +128,8 @@ font-weight: bold;
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 color: white;}
+
+/* ---------------RODAPÉ------------------*/
 
 footer
 {height: 50px;
