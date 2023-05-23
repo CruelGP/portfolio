@@ -142,4 +142,13 @@ color: white;}
 footer
 {height: 50px;
 color: white;
-background-color: var(--cor05);}
+background-color: var(--cor05);
+font-family: var(--fonte01);
+padding-left: 10px;}
+
+footer > h1
+{color: white;
+background-color: var(--cor05);
+font-family: var(--fonte01);
+font-weight: normal;
+padding-left: 10px;}
