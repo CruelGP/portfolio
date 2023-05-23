@@ -42,7 +42,8 @@ font-size: 4em;}
 /* ---------------MENU-------------------*/
 
 menu
-{background-color: var(--cor05);}
+{background-color: var(--cor05);
+font-family: Arial, Helvetica, sans-serif;}
 
 menu > ul
 {list-style-type:none}
