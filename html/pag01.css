@@ -2,8 +2,10 @@
 
 @font-face {
     font-family:'on-fire' ;
-    src: url('fontes/On\ Fire\ Free\ Trial.ttf') format('truetype');
-}
+    src: url('fontes/On\ Fire\ Free\ Trial.ttf') format('truetype');}
+@font-face 
+{font-family: 'street-devil';
+    src: url('fontes/STREET\ DEVIL.ttf') format('truetype');}
 
 :root
 {--cor01:#4d4d4d;
@@ -14,7 +16,8 @@
 --cor06:#57429F;
 --cor07:#6C57F2;
 
---fonte01: }
+--fonte01: 'on-fire', 'cursive';
+--fonte02: 'street-devil', 'cursive';}
 
 *
 {margin: 0px;
@@ -31,7 +34,10 @@ background-color:var(--cor06);}
 
 header > h1
 {padding: 25px;
-color: white;}
+color: white;
+font-family: var(--fonte01);
+font-weight: normal;
+font-size: 4em;}
 
 /* ---------------MENU-------------------*/
 
@@ -59,18 +65,17 @@ height: 500px;}
 
 /* ---------------TRABALHOS-------------------*/
 
-main > section#trabalhos > h1
-{color: white;}
-
 main > section#trabalhos
 {display: block;
 text-align: center;}
 
 main > section#trabalhos > h2
-{font-size: 2em;
+{font-size: 2.5em;
 color: white;
 border-bottom: 3px solid white;
-padding: 10px;}
+padding-top: 20px;
+font-family: var(--fonte02);
+font-weight: normal;}
 
 main > section#trabalhos > div#d1,div#d2,div#d3
 {display:inline-block;
@@ -103,19 +108,21 @@ main > section#contatos
 {display: block;
 text-align: center;}
 
+main > section#contatos h2
+{font-size: 2.5em;
+color: white;
+border-top: 3px solid white;
+border-bottom: 3px solid white;
+text-align: center;
+padding-top: 20px;
+font-family: var(--fonte02);
+font-weight: normal;}
+
 main > section#contatos div
 {margin: 30px;
 height: 200px;
 width: 200px;
 display: inline-block;}
-
-main > section#contatos h2
-{font-size: 2em;
-color: white;
-border-top: 3px solid white;
-border-bottom: 3px solid white;
-text-align: center;
-padding: 10px;}
 
 main > section#contatos img
 {height: 120px;
