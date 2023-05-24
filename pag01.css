@@ -152,9 +152,11 @@ background-color: var(--cor05);
 font-family: var(--fonte01);
 padding-left: 10px;}
 
-footer > h1
+footer > a
 {color: white;
 background-color: var(--cor05);
+font-size: 2em;
 font-family: var(--fonte01);
 font-weight: normal;
+text-decoration: none;
 padding-left: 10px;}
