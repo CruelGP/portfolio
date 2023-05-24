@@ -60,9 +60,10 @@ text-decoration: none;}
 
 /* ---------------APRESENTAÇÃO-------------------*/
 main > section#apr
-{background-image: url('imagem/fogo-roxo01.jpg');
+{background-image: url('imagem/fogo-roxo02.png');
 background-repeat: no-repeat;
-background-size: cover;
+background-size:cover;
+background-attachment: fixed;
 height: 500px;}
 
 main > section#apr div#img
