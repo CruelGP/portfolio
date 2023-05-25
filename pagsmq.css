@@ -1,6 +1,9 @@
 @charset "UTF8";
 
 @media screen and (min-width:650px) and (max-width:1080px){
+    main > section#apr
+    {height: 500px;}
+
     section#trabalhos
     {max-width:640px;
     display:block;
@@ -15,6 +18,10 @@
 }
 
 @media screen and (min-width:1080px){
+
+    main > section#apr
+    {height: 500px;}
+
     section#trabalhos
     {max-width:974px;
     display:block;
