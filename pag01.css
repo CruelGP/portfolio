@@ -62,12 +62,10 @@ text-decoration: none;}
 main > section#apr
 {background-image: url('imagem/over.png');
 background-repeat: no-repeat;
-background-size:;
-
 background-position: bottom;
 height: 800px;}
 
-main > section#apr div#img
+main > section#apr div#img-apr
 {display: block;
 text-align: center;}
 
@@ -91,7 +89,7 @@ flex-wrap: wrap;
 gap: 30px;
 padding: 30px 0px;
 justify-content: center;
-}
+list-style-type:none}
 
 main .projeto
 {display:flex;
@@ -105,18 +103,15 @@ font-size: 1.4em;
 font-weight: bold;
 font-family: Arial, Helvetica, sans-serif;}
 
-main > section#trabalhos img
+ main .img
 {height: 300px;
 width: 300px;}
 
-main > section#trabalhos a
+main .link-projeto
 {text-decoration: none;
 color: white;}
 
-main > section#trabalhos > div#d1:hover
-{background-color: var(--cor07);}
-
-main > section#trabalhos > div:hover
+main .projeto:hover
 {background-color: var(--cor07);}
 
 /* ---------------CONTATOS-------------------*/
