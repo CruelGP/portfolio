@@ -9,15 +9,15 @@
 
 :root
 {--cor01:#4d4d4d;
---cor02: #1D1340 ;
---cor03: #1B1259;
---cor04:#131026 ;
---cor05:#212026;
---cor06:#57429F;
---cor07:#6C57F2;
+ --cor02:#1D1340 ;
+ --cor03:#1B1259;
+ --cor04:#131026 ;
+ --cor05:#212026;
+ --cor06:#57429F;
+ --cor07:#6C57F2;
 
---fonte01: 'on-fire', 'cursive';
---fonte02: 'street-devil', 'cursive';}
+ --fonte01: 'on-fire', 'cursive';
+ --fonte02: 'street-devil', 'cursive';}
 
 *
 {margin: 0px;
