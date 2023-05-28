@@ -65,9 +65,13 @@ background-repeat: no-repeat;
 background-position: bottom;
 height: 800px;}
 
-main > section#apr div#img-apr
+main > section#apr > div#img-apr
 {display: block;
-text-align: center;}
+text-align: center;
+overflow-x: auto;}
+
+div#img-apr::-webkit-scrollbar
+{width: 0px;}
 
 /* ---------------TRABALHOS-------------------*/
 
