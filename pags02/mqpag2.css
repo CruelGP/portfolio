@@ -1,0 +1,21 @@
+@charset "UTF8";
+
+@media screen and (min-width:320px) and (max-width:500px){
+    div#descrição > h1
+    {color:white;
+    font-size: 2em;}
+    
+    div#descrição > h2
+    {color:white;
+    font-size: 1.5em;}
+    
+    div#descrição >p
+    {color: white;
+    display: flex;
+    padding: 20px;
+    font-size: 1em;}
+    
+    div#descrição img
+    {padding: 0px 20px;
+    height: 50px;}
+}
