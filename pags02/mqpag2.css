@@ -2,31 +2,10 @@
 
 @media screen and (min-width:320px) and (max-width:500px){
     div#imagem
-    {width: 800px;
+    {width: 400px;
     height: 500px;
     position: relative;}
-
-    img
-    {width: 100%;
-    height: 100%;
-    display: block;
-    margin: auto;}
-
-    div#descrição
-    {position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    background:rgba(0, 0, 0, 0.822);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
-    opacity: 0;
-    transition:0.6s;}
-
-    
+ 
     div#descrição > h1
     {color:white;
     font-size: 2em;}
@@ -38,10 +17,13 @@
     div#descrição >p
     {color: white;
     display: flex;
-    padding: 20px;
+    padding: 10px;
     font-size: 1em;}
-    
+
     div#descrição img
-    {padding: 0px 20px;
-    height: 50px;}
+    {padding: 5px 10px;}
+
+    section#botoes
+    {gap: 20px;
+    flex-direction:column;}
 }
