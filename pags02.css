@@ -98,7 +98,8 @@ div#descrição >p
 {color: white;
 display: flex;
 padding: 20px;
-font-size: 1.2em;}
+font-size: 1.2em;
+text-align: center;}
 
 div#descrição img
 {padding: 5px 20px;}
